@@ -1,49 +1,111 @@
 /*anime.js*/
-.anim, .anim svg {
-    position: relative;
-    width:100%;
-    height: 500px;
-  }
-  .anim path {
-    stroke-width: 2;
-  }
-/*page content*/
-.half {
-    padding-top: 60px;
-    width: 480px;
-    float: left;
-    text-align: center;}
 
+.anim,
+.anim svg {
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+
+.anim path {
+  stroke-width: 3;
+}
+
+
+/*page content*/
+
+.half {
   
-  form {
-    margin: 0 0 0 90px;
-    width: 300px;}
-  label, input {
-    display: inline-block;}
-  label {
-    display: block;
-    text-align: left;
-    padding-top: 10px;
-    text-transform: uppercase;}
-  input {
-    border: none;
-    border-radius: 5px;
-    background-color: #dcdcdc;
-    font-size: 1em;
-    line-height: 1em;
-    width: 280px;
-    padding: 6px 10px 6px 10px;}
-  input[type=submit] {
-    background-color: #1fb684;
-    color: #fff;
-    font-weight: bold;
-    clear:left;
-    float: right;
-    width: 8em;
-    padding: 8px 20px 8px 20px;
-    margin-top: 10px;
-    text-transform: uppercase;}
-  input[type=submit]:hover {
-    background-color: #000;
-    cursor: pointer;}
+  position:relative;
+  width: 50%;
+  float: left;
+  padding-top: 60px;
+  text-align: center;
+
+}
+
+.left-content{
+  width: 40%;
+  float:left;
+  margin-right:60%
+
+
+}
+
+
+#vote {
+  padding-top: 20px;
+}
+
+p#selector {
+  margin-top: -40px;
+}
+
+form {
+  width: 50%;
+  text-align: center;
+  padding-top: 60px;
+  width:300px;
   
+  
+}
+
+label,
+input {
+  display: inline-block;
+}
+
+label {
+  display: block;
+  text-align: left;
+  padding-top: 10px;
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+input {
+  
+  border: none;
+  border-radius: 5px;
+  background-color: #dcdcdc;
+  font-size: 2em;
+  line-height: 1em;
+  width: 280px;
+  
+}
+
+
+input[type=submit] {
+  background-color: #1fb684;
+  color: #fff;
+  font-weight: bold;
+  clear: left;
+  float: right;
+  width: 8em;
+  padding: 8px 20px 8px 20px;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+
+input[type=submit]:hover {
+  background-color: #000;
+  cursor: pointer;
+}
+
+
+h2 {
+  font-size: 3em;
+  font-weight:bolder; 
+  margin: 0.7em 0 1.7em 0;
+  padding: 0;
+  color:#1fb684;
+  line-height: 1em;
+  letter-spacing: -.06em;
+}
+
+.boldhr{
+
+}
+.footer-text{
+  color: #fff;
+}
+

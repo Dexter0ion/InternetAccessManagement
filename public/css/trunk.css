@@ -35,7 +35,10 @@ a {text-decoration: none;}
 header {
 	height: 90px;
 	position: relative;
+	background-color: #000;
+	/*
 	background-color: #f3f5f6;
+	*/
 }
 header h1 {
 	
@@ -66,7 +69,11 @@ header h1 {
 	border-radius: 3px;
 	margin: 5px 0;
 }
-.burger.open li {background-color: #d9dde1;}
+.burger.open li {
+	
+	background-color: #d9dde1;
+}
+
 
 nav {
 	position: absolute;
@@ -79,13 +86,13 @@ nav li {
 	display: inline-block;
 }
 nav li a {
-	font-size: 11px;
+	font-size: 20px;
 	color: #9aa6af;
 	padding: 24px 15px;
-	
+	font-weight: bold;
 	display: block;
 }
-nav li a:hover {color: #000;}
+nav li a:hover {color:#1eb686}
 
 
 
@@ -98,8 +105,8 @@ nav li a:hover {color: #000;}
 {padding: 20px;}
 
 .header-section {background-color: #ffffff;}
-.body-section {background-color: #f4f5f6;}
-.footer-section {background-color: #dadee1;}
+.body-section {background-color: whitesmoke;}
+.footer-section {background-color:#1eb686;}
 .placefiller {
 	text-align: center;
 	font-size: 20px;
@@ -107,6 +114,7 @@ nav li a:hover {color: #000;}
 }
 .header-section .placefiller {line-height: 300px;}
 .body-section .placefiller {line-height: 900px;}
+.body-section .placefiller-small {line-height: 200px;}
 .footer-section .placefiller {
 	line-height: 200px;
 	border: 1px dashed rgba(190, 196, 202, 0.9);
