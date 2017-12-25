@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<title>Internet网络通路管理</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="HandheldFriendly" content="True">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+	<!-- Style Sheets -->
+	<link rel="stylesheet" type="text/css" media="all" href="css/reset.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="css/trunk.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="css/style.css" />
+	<!-- Scripts -->
+	<script type="text/javascript">
+		if (typeof jQuery == 'undefined')
+			document.write(unescape("%3Cscript src='js/jquery-1.9.js'" +
+				"type='text/javascript'%3E%3C/script%3E"))
+	</script>
+	<script type="text/javascript" language="javascript" src="js/trunk.js"></script>
+	<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<![endif]-->
+
+
+</head>
+
+<body>
+
+	<div class="container">
+
+		<header class="slide">
+			<!--	Add "slideRight" class to items that move right when viewing Nav Drawer  -->
+			<ul id="navToggle" class="burger slide">
+				<!--	Add "slideRight" class to items that move right when viewing Nav Drawer  -->
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+			<div class="logopng">
+				<img src="../img/logo-trans-small.png" />
+			</div>
+		</header>
+
+		<nav class="slide">
+			<ul>
+				<li>
+					<a href="/" class="active">主页</a>
+				</li>
+				<li>
+					<a href="/NodeProcess">新增网点</a>
+				</li>
+				<li>
+					<a href="/NodeProcess">删除网点</a>
+				</li>
+				<li>
+					<a href="/NodeProcess">显示网点</a>
+				</li>
+				<li>
+					<a href="/LinkProcess">建立连接</a>
+				</li>
+				<li>
+					<a href="/LinkProcess">删除连接</a>
+				</li>
+				<li>
+					<a href="/Warshall">检测可达性|Warshall</a>
+				</li>
+				<li>
+					<a href="/Floyd">网点最短路|Floyd</a>
+				</li>
+			</ul>
+		</nav>
+
+		<div class="content slide">
+			<!--	Add "slideRight" class to items that move right when viewing Nav Drawer  -->
+			<ul class="responsive">
+				<li class="header-section">
+					
+					
+				</li>
+				<li class="body-section">
+					<div class="half">
+
+						<img src="img/register-circuitboard.jpg" alt="circuit board" />
+					</div>
+					<div class="half">
+						<form id="register" action="http://javascriptbook.com/code/c08/register.php" method="post">
+							<h2>Register</h2>
+							<label for="name">Username</label>
+							<input type="text" id="name" name="name" />
+							<label for="pwd">Password</label>
+							<input type="password" id="pwd" name="pwd" />
+							<label for="email">Email</label>
+							<input type="email" id="email" name="email" />
+							<input type="submit" value="Join" />
+						</form>
+					</div>
+					<p class="placefiller">&nbsp;</p>
+				</li>
+				<li class="footer-section">
+					<p class="placefiller">FOOTER</p>
+				</li>
+			</ul>
+		</div>
+
+	</div>
+	<script src="../js/anime.min.js"></script>
+	<script src="../js/lineDrawing.js"></script>
+</body>
+
+</html>
